@@ -4,65 +4,67 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="canonical" href="/" />
-    <link rel="stylesheet" href="css/style.css">
-    <title>TTP-2672 - 10</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Landing page TTP-2672 - 10">
+
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="canonical" href="/" />
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>TTP-2726 - 3</title>
+    <meta name="description" content="Landing page TTP-2726 - 3">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header__content">
-                <div class="burger-menu"></div>
-                <span class="header__logo">Logo</span>
-                <nav class="nav">
-                    <ul class="menu">
-                        <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Породы</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Рейтинги</a></li>
-                    </ul>
-                </nav>
-                <div class="header__block">
-                    <button>Вход</button>
-                    <button>Регистрация</button>
+    <header class="header">
+        <div class="header-top">
+            <div class="header-fixed">
+                <div class="container header-wrapper">
+                    <div class="burger"></div>
+                    <span class="header-logo">logo</span>
+                        <nav class="nav">
+                            <ul class="menu">
+                                <li>
+                                    Главная
+                                </li>
+                                <li>
+                                    <a href="" class="menu-link">Породы</a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu-link">Рейтинги</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-block-btn">
+                            <button class="btn header-btn">Вход</button>
+                            <button class="btn header-btn">Регистрация</button>
+                        </div>
                 </div>
             </div>
-        </header>
-        <main>
-            <aside class="aside">
-                <ul>
-                    <li><a href="">Джек-рассел-терьер</a></li>
-                    <li><a href="">Йоркширские терьеры</a></li>
-                    <li><a href="">Бордер-колли</a></li>
-                    <li><a href="">Спрингер-спаниели</a></li>
-                    <li><a href="">Метисы</a></li>
-                    <li><a href="">Лабрадор-ретривер</a></li>
-                    <li><a href="">Стаффордширский бультерьер</a></li>
-                </ul>
-            </aside>
-            <article class="art">
-                <picture>
-                    <source srcset="img/banner-min.jpg" media="(max-width:450px)">
-                    <img src="img/banner.jpg" alt="Casino">
-                </picture>
-
-                <h1>Породы собак с наибольшей продолжительностью жизни</h1>
-                <ul>
-                    <li><a href="">Джек-рассел-терьер</a></li>
-                    <li><a href="">Йоркширские терьеры</a></li>
-                    <li><a href="">Бордер-колли</a></li>
-                    <li><a href="">Спрингер-спаниели</a></li>
-                    <li><a href="">Метисы</a></li>
-                    <li><a href="">Лабрадор-ретривер</a></li>
-                    <li><a href="">Стаффордширский бультерьер</a></li>
-                </ul>
+        </div>
+        <div class="header-bottom">
+            <h1><span>Породы собак</span> среднего размера</h1>
+            <ul>
+                <li><a href="">Служба поддержки игроков</a></li>
+                <li><a href="">Служба поддержки игроков</a></li>
+                <li><a href="">Служба поддержки игроков</a></li>
+                <li><a href="">Служба поддержки игроков</a></li>
+                <li><a href="">Служба поддержки игроков</a></li>
+                <li><a href="">Служба поддержки игроков</a></li>
+                <li><a href="">Служба поддержки игроков</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <article class="article">
                 <p>Авторы <a href="">исследования</a> изучили данные 876 039 питомцев, из числа которых была
                     сформирована выборка из 18 чистокровных пород и метисов. Для всех с учётом массы различных факторов
                     рассчитывалась ожидаемая продолжительность жизни и вероятность смерти.
                 </p>
+                <picture>
+                    <source srcset="images/casino-mini.jpg" media="(max-width:450px)">
+                    <img src="images/casino.jpg" alt="casino">
+                </picture>
                 <p>Все сведения были получены из системы VetCompass, которая собирает обезличенные клинические записи из
                     ветеринарных клиник страны в централизованное хранилище.</p>
                 <p>Весь список изученных пород:</p>
@@ -98,15 +100,14 @@
                 <p>Йоркширский терьер – одна из самых популярных в мире комнатно-декоративных пород собак. Йорк
                     очарователен внешне, энергичен, ласков и является отличным компаньоном.</p>
                 <picture>
-                    <source srcset="img/img-mini.jpg" media="(max-width:450px)">
-                    <img src="img/img.jpg" alt="Dog">
+                    <source srcset="images/mini-dog.jpg" media="(max-width:450px)">
+                    <img src="images/dog.jpg" alt="Dog">
                 </picture>
-                <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem
-                    Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а
-                    также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации
-                    "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."</p>
-
-                <table class="table tabl-1">
+                <p>
+                    Йоркширский терьер – превосходная собака, в характере которой смелость, резвость, выносливость
+                    сочетаются с удивительной деликатностью, интеллигентностью и сообразительностью.
+                </p>
+                <table class="tabl-1">
                     <tbody>
                         <tr>
                             <td>Джек-рассел-терьер</td>
@@ -129,7 +130,7 @@
                     </tbody>
                 </table>
 
-                <table class="table tabl-2">
+                <table class="tabl-2">
                     <tbody>
                         <tr>
                             <td>Джек-рассел-терьер</td>
@@ -149,7 +150,7 @@
                     </tbody>
                 </table>
 
-                <table class="table tabl-3">
+                <table class="tabl-3">
                     <tbody>
                         <tr>
                             <td>Джек-рассел-терьер</td>
@@ -165,28 +166,13 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="spin">
-                    <figure class="spin-img"><img src="img/icon.png" alt="Spin"></figure>
-                    <span class="spin-title">Бесплатны спины</span>
-                </div>
             </article>
-        </main>
-    <div class="grid-block">
-        <div class="block circle">
-            <span class="block-title">Branding</span>
-            <p class="block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-            </p>
         </div>
-        <div class="block triangle">
-            <span class="block-title">Design</span>
-            <p class="block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-            </p>
-        </div>
-    </div>
+    </main>
     <footer class="footer">
-        <p>© 2023 REGAL ASSETS. <span>All rights reserved</span></p>
+        <p>© REGAL ASSETS. All rights reserved</p>
     </footer>
-</div>
+    <button class="btn arrow-btn-up"></button>
 
     <script src="js/main.js"></script>
 </body>
